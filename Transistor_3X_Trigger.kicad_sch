@@ -1202,6 +1202,18 @@
 		)
 		(uuid "87f83f3a-f969-4e33-857d-db850029d90c")
 	)
+	(text "must use NON-HYSTERESIS chip 74HC04N ONLY!!"
+		(exclude_from_sim no)
+		(at 162.306 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f9cff701-0887-4bd1-aa98-c0bfc295e341")
+	)
 	(junction
 		(at 130.81 147.32)
 		(diameter 0)
@@ -2129,7 +2141,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC14N_652"
+		(property "Value" "MC74HC04N_652"
 			(at 149.86 97.79 0)
 			(effects
 				(font
